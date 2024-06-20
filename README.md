@@ -30,23 +30,43 @@ Three questions will guide the future marketing program:​
 
 We will address the first question mostly in this analysis.
 
-## Prepare
+## Prepare and Process
 Tools Used:​
 
   1. R Programming Language(For Data Wrangling and Analysis)​
   2. Tableau (For Data Visualization)​
 
 We have 12 datasets each covering a month from June 2023 till June 2024 and their formatted as shown below. 
+
 ![image](Images/JuneFormat.png)
 ### Data Combining
-We used the rbindlist to bind all 12 datasets into one. As seen in [here](Analysis.R)  
+We used the rbindlist to bind all 12 datasets into one. As seen in [here](Analysis.R) and below.
+<pre>
+June2023 <- fread("202306-divvy-tripdata.csv")
+July2023 <- fread("202307-divvy-tripdata.csv")
+August2023 <- fread("202308-divvy-tripdata.csv")
+September2023 <- fread("202309-divvy-tripdata.csv")
+October2023 <- fread("202310-divvy-tripdata.csv")
+November2023 <- fread("202311-divvy-tripdata.csv")
+December2023 <- fread("202312-divvy-tripdata.csv")
+January2024<- fread("202401-divvy-tripdata.csv")
+February2024 <- fread("202402-divvy-tripdata.csv")
+March2024 <- fread("202403-divvy-tripdata.csv")
+April2024 <- fread("202404-divvy-tripdata.csv")
+May2024 <- fread("202405-divvy-tripdata.csv")
+
+
+combined_data <- rbindlist(list(
+  June2023, July2023, August2023, September2023,
+  October2023, November2023, December2023, January2024,
+  February2024, March2024, April2024, May2024
+))
+</pre>
 The newly made dataset has 5743278 rows. 
 
 ### Data Cleaning
-No duplicate rows were present in the datasets. 
-
-There was a total of 7684 null values present in "end_lat" and "end_lng" which all were removed from the dataset. 
-
+No duplicate rows were present in the datasets.    
+There was a total of 7684 null values present in "end_lat" and "end_lng" which all were removed from the dataset.    
 There was a total of 1806 rides in which the start time was either bigger than or equal to the end time all of which were removed from the dataset. 
 
 
@@ -57,5 +77,15 @@ We added four columns to our datasets as shown in [R script](Analysis.R) to help
   3. The duration of the ride in minutes.
   4. The distance of the ride in meters.
 
-After adding the new columns the format of the dataset is shown below:
+After adding the new columns the format of the dataset is shown below.
 
+![image](Images/AllFormat.png)
+
+### Data Exploration
+The average ride duration for casuals is **21.19477 minutes**   
+The average ride duration for members is **12.31207 minutes**
+
+The average ride distance for casuals is **2128.941 meters**   
+The average ride distance for members is **2124.894 meters**
+
+## Analysis and Visualization
