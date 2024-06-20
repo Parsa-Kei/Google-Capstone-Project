@@ -37,5 +37,7 @@ Tools Used:​
   2. Tableau (For Data Visualization)​
 
 We have 12 datasets each covering a month from June 2023 till June 2024 and their formatted as shown below. 
+![image](Images/JuneFormat.png)
 
-![image](Images\JuneFormat.png)
+we used the rbindlist to bind all 12 datasets into one. As seen in [here](Analysis.R)
+
