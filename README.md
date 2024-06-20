@@ -20,7 +20,7 @@ are already aware of the Cyclistic program and have chosen Cyclistic for their m
 
 
 ## Introduction
-The dataset used in this analysis is from [Here](https://divvy-tripdata.s3.amazonaws.com/index.html) under this  [Data License Agreement](https://divvybikes.com/data-license-agreement) and is for learning purposes. as Cyclistic is a fictional company. For this analysis we'll be using the datasets made available from June 2023 till June 2024. The purpose of this analysis is to identify possible insights and patterns in the dataset provided by the company that would help with decision-making.
+The dataset used in this analysis is from [Here](https://divvy-tripdata.s3.amazonaws.com/index.html) under this  [Data License Agreement](https://divvybikes.com/data-license-agreement) and is for learning purposes. as Cyclistic is a fictional company. For this analysis, we'll be using the datasets made available from June 2023 till June 2024. The purpose of this analysis is to identify possible insights and patterns in the dataset provided by the company that would help with decision-making.
 
 ## Ask
 Three questions will guide the future marketing program:​
@@ -29,3 +29,11 @@ Three questions will guide the future marketing program:​
   3. How can Cyclistic use digital media to influence casual riders to become members? ​
 
 We will address the first question mostly in this analysis.
+
+## Prepare
+Tools Used:​
+
+  1. R Programming Language(For Data Wrangling and Analysis)​
+  2. Tableau (For Data Visualization)​
+
+We have 12 datasets each covering a month from June 2023 till June 2024 and their formatted as shown below. 
