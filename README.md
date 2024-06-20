@@ -38,6 +38,24 @@ Tools Used:​
 
 We have 12 datasets each covering a month from June 2023 till June 2024 and their formatted as shown below. 
 ![image](Images/JuneFormat.png)
+### Data Combining
+We used the rbindlist to bind all 12 datasets into one. As seen in [here](Analysis.R)  
+The newly made dataset has 5743278 rows. 
 
-we used the rbindlist to bind all 12 datasets into one. As seen in [here](Analysis.R)
+### Data Cleaning
+No duplicate rows were present in the datasets. 
+
+There was a total of 7684 null values present in "end_lat" and "end_lng" which all were removed from the dataset. 
+
+There was a total of 1806 rides in which the start time was either bigger than or equal to the end time all of which were removed from the dataset. 
+
+
+### Data Enriching
+We added four columns to our datasets as shown in [R script](Analysis.R) to help with the analysis process. 
+  1. The month in which the ride started
+  2. The day of the week in which the ride started.
+  3. The duration of the ride in minutes.
+  4. The distance of the ride in meters.
+
+After adding the new columns the format of the dataset is shown below:
 
