@@ -37,3 +37,5 @@ Tools Used:​
   2. Tableau (For Data Visualization)​
 
 We have 12 datasets each covering a month from June 2023 till June 2024 and their formatted as shown below. 
+
+(Images\JuneFormat)
