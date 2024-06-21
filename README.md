@@ -62,6 +62,7 @@ combined_data <- rbindlist(list(
   February2024, March2024, April2024, May2024
 ))
 </pre>
+na.strings = "" converts all the empty values to NULL value.
 The newly made dataset has 5743278 rows. 
 
 ### Data Cleaning
