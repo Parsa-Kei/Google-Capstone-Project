@@ -42,18 +42,18 @@ We have 12 datasets each covering a month from June 2023 till June 2024 and thei
 ### Data Combining
 We used the rbindlist to bind all 12 datasets into one. As seen in [here](Analysis.R) and below.
 <pre>
-June2023 <- fread("202306-divvy-tripdata.csv")
-July2023 <- fread("202307-divvy-tripdata.csv")
-August2023 <- fread("202308-divvy-tripdata.csv")
-September2023 <- fread("202309-divvy-tripdata.csv")
-October2023 <- fread("202310-divvy-tripdata.csv")
-November2023 <- fread("202311-divvy-tripdata.csv")
-December2023 <- fread("202312-divvy-tripdata.csv")
-January2024<- fread("202401-divvy-tripdata.csv")
-February2024 <- fread("202402-divvy-tripdata.csv")
-March2024 <- fread("202403-divvy-tripdata.csv")
-April2024 <- fread("202404-divvy-tripdata.csv")
-May2024 <- fread("202405-divvy-tripdata.csv")
+June2023 <- fread("202306-divvy-tripdata.csv", na.strings = "")
+July2023 <- fread("202307-divvy-tripdata.csv", na.strings = "")
+August2023 <- fread("202308-divvy-tripdata.csv", na.strings = "")
+September2023 <- fread("202309-divvy-tripdata.csv", na.strings = "")
+October2023 <- fread("202310-divvy-tripdata.csv", na.strings = "")
+November2023 <- fread("202311-divvy-tripdata.csv", na.strings = "")
+December2023 <- fread("202312-divvy-tripdata.csv", na.strings = "")
+January2024<- fread("202401-divvy-tripdata.csv", na.strings = "")
+February2024 <- fread("202402-divvy-tripdata.csv", na.strings = "")
+March2024 <- fread("202403-divvy-tripdata.csv", na.strings = "")
+April2024 <- fread("202404-divvy-tripdata.csv", na.strings = "")
+May2024 <- fread("202405-divvy-tripdata.csv", na.strings = "")
 
 
 combined_data <- rbindlist(list(
