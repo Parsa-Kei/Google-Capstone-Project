@@ -70,7 +70,7 @@ No duplicate rows were present in the datasets.
 There was a total of **7684** null values present in "**end_lat**" and "**end_lng**" which all were removed from the dataset.    
 There was a total of **956579** null values present in **end_station_name** and **end_station_id** all of which were removed from the dataset.    
 There was a total of **905237** null values present in **start_station_name** and **start_station_id** all of which were removed from the dataset.        
-There was a total of **1806** rides in which the start time was either bigger than or equal to the end time all of which were removed from the dataset. 
+There was a total of **72** rides in which the start time was either bigger than or equal to the end time all of which were removed from the dataset. 
 
 
 ### Data Enriching
