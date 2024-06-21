@@ -66,8 +66,8 @@ The newly made dataset has 5743278 rows.
 
 ### Data Cleaning
 No duplicate rows were present in the datasets.    
-There was a total of 7684 null values present in "end_lat" and "end_lng" which all were removed from the dataset.    
-There was a total of 1806 rides in which the start time was either bigger than or equal to the end time all of which were removed from the dataset. 
+There was a total of **7684** null values present in "**end_lat**" and "**end_lng**" which all were removed from the dataset.    
+There was a total of **1806** rides in which the start time was either bigger than or equal to the end time all of which were removed from the dataset. 
 
 
 ### Data Enriching
