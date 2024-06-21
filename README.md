@@ -85,10 +85,10 @@ After adding the new columns the format of the dataset is shown below.
 ![image](Images/AllFormat.png)
 
 ### Data Exploration
-The average ride duration for casuals is **21.19477 minutes**   
-The average ride duration for members is **12.31207 minutes**
+The average ride duration for casuals is **23.58741 minutes**   
+The average ride duration for members is **12.42971 minutes**
 
-The average ride distance for casuals is **2128.941 meters**   
-The average ride distance for members is **2124.894 meters**
+The average ride distance for casuals is **2123.006 meters**   
+The average ride distance for members is **2058.034 meters**
 
 ## Analysis and Visualization
