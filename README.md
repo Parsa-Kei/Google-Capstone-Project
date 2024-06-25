@@ -113,7 +113,7 @@ We can see that the number of rides taken by members is much higher for classic 
 Docked bikes are only used by casual riders. 
 
 
-### Average Ride Duration VS (Membership Type and Month)
+### Average Ride Duration VS (Membership Type and Days In The Year)
 ![image](Images/DurationDayOfYear.png)
 
 
