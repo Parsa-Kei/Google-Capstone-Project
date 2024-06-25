@@ -95,3 +95,8 @@ The average ride distance for casuals is **2123.006 meters**
 The average ride distance for members is **2058.034 meters**
 
 ## Analysis and Visualization
+The cleaned dataset is written to a new csv file and is used in Tableau for visualization
+
+below is the chart for number of rides based on memebership type and rideable type.
+
+![image](Images/JuneFormat.png)
