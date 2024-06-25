@@ -109,3 +109,6 @@ below is the chart for number of rides based on memebership type and rideable ty
 
 We can see that the number of rides taken by members is much higher for classic bikes and electric bikes however members don't use docked bikes.   
 Docked bikes are only used by casual riders. 
+
+![image](Images/DurationDayOfYear.png)
+
