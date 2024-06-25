@@ -134,3 +134,8 @@ We see a decline in the number of member rides from Friday to Saturday.
 
 The highest number of casual rides is in July.    
 The highest number of member rides is in August.
+
+## Summary & Conclusion      
+
+### Summary 
+|Casulas|Members|
