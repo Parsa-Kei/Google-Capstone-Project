@@ -109,7 +109,7 @@ below is the chart for number of rides based on memebership type and rideable ty
 
 
 
-We can see that the number of rides taken by members is much higher for classic bikes and electric bikes however members don't use docked bikes.   
+* We can see that the number of rides taken by members is much higher for classic bikes and electric bikes however members don't use docked bikes.   
 Docked bikes are only used by casual riders. 
 
 
@@ -118,28 +118,31 @@ Docked bikes are only used by casual riders.
 
 
 
-We can see that the average ride duration for both members and casual riders peaks in mid-January. 
+* We can see that the average ride duration for both members and casual riders peaks in mid-January. 
 
 
 ### Ride Count VS Weekdays
 ![image](Images/RideCountWeekday.png)
 
 
-We see a peak in the number of casual rides from Friday to Saturday.     
-We see a decline in the number of member rides from Friday to Saturday. 
+* We see a peak in the number of casual rides from Friday to Saturday.     
+* We see a decline in the number of member rides from Friday to Saturday. 
 
 
 ### Ride Count VS Month
 ![image](Images/RideCountMonth.png)
 
-The highest number of casual rides is in July.    
-The highest number of member rides is in August.
+* The highest number of casual rides is in July.    
+* The highest number of member rides is in August.
 
 ## Summary & Conclusion      
 
 ### Summary 
 |  Casual Rides | Member Rides | 
 |:--------:|:--------:|
-|  There's been 1,514,864 rides casual rides From June-2023 till June-24 |  There's been 2,799,250 rides member rides From June-2023 till June-24  |
+|  There's been 1,514,864 rides casual rides From June-2023 till June-2024 |  There's been 2,799,250 rides member rides From June-2023 till June-2024  |
 | Casual riders ride their bike on the weekends  | Member riders ride their bikes on the weekdays | 
 | Casual riders ride the most in July | Member riders use their bikes the most in August | 
+
+January 17th is the day on which both casual and members ride their bikes for the longest time.      
+
