@@ -140,5 +140,6 @@ The highest number of member rides is in August.
 ### Summary 
 |  Casual Rides | Member Rides | 
 |:--------:|:--------:|
-| Row 1 Col 1 | Row 1 Col 2 | 
-| Row 2 Col 1 | Row 2 Col 2 | 
+|  There's been 1,514,864 rides casual rides From June-2023 till June-24 |  There's been 2,799,250 rides member rides From June-2023 till June-24  |
+| Casual riders ride their bike on the weekends  | Member riders ride their bikes on the weekdays | 
+| Casual riders ride the most in July | Member riders use their bikes the most in August | 
