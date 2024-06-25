@@ -88,6 +88,9 @@ After adding the new columns the format of the dataset is shown below.
 ![image](Images/AllFormat.png)
 
 ### Data Exploration
+
+There are **1514864** rides taken by casual riders and there are **2799250** rides taken by members. 
+
 The average ride duration for casuals is **23.58741 minutes**   
 The average ride duration for members is **12.42971 minutes**
 
