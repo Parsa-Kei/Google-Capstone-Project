@@ -104,6 +104,7 @@ The cleaned dataset is written to a new csv file and is used in Tableau for visu
 
 below is the chart for number of rides based on memebership type and rideable type.
 
+### Ride Count VS (Membership and Rideable Type)
 ![image](Images/ride_count_by_membership_and_ride_type.png)
 
 
@@ -111,6 +112,8 @@ below is the chart for number of rides based on memebership type and rideable ty
 We can see that the number of rides taken by members is much higher for classic bikes and electric bikes however members don't use docked bikes.   
 Docked bikes are only used by casual riders. 
 
+
+### Average Ride Duration VS (Membership Type and Month)
 ![image](Images/DurationDayOfYear.png)
 
 
@@ -118,6 +121,7 @@ Docked bikes are only used by casual riders.
 We can see that the average ride duration for both members and casual riders peaks in mid-January. 
 
 
+### Ride Count VS Weekdays
 ![image](Images/RideCountWeekday.png)
 
 
