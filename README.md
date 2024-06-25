@@ -89,7 +89,7 @@ After adding the new columns the format of the dataset is shown below.
 
 ### Data Exploration
 
-There are **1514864** rides taken by casual riders and there are **2799250** rides taken by members. 
+
 
 * The average ride duration for casuals is **23.58741 minutes**   
 * The average ride duration for members is **12.42971 minutes**      
@@ -102,7 +102,10 @@ There are **1514864** rides taken by casual riders and there are **2799250** rid
 ## Analysis and Visualization
 The cleaned dataset is written to a new csv file and is used in Tableau for visualization
 
-below is the chart for number of rides based on memebership type and rideable type.
+![image](Images/1.png)
+
+* There are **1514864** rides taken by casual riders and there are **2799250** rides taken by members. 
+
 
 ### Ride Count VS (Membership and Rideable Type)
 ![image](Images/ride_count_by_membership_and_ride_type.png)
