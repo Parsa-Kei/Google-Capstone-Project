@@ -76,11 +76,12 @@ After the cleaning process the dataset has 4314114 rows.
 
 
 ### Data Enriching
-We added four columns to our datasets as shown in [R script](Analysis.R) to help with the analysis process. 
+We added five columns to our datasets as shown in [R script](Analysis.R) to help with the analysis process. 
   1. The month in which the ride started
   2. The day of the week in which the ride started.
-  3. The duration of the ride in minutes.
-  4. The distance of the ride in meters.
+  3. The hour of the day in which the ride started.
+  4. The duration of the ride in minutes.
+  5. The distance of the ride in meters.
 
 After adding the new columns the format of the dataset is shown below.
 
