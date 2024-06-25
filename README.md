@@ -113,7 +113,7 @@ We can see that the number of rides taken by members is much higher for classic 
 Docked bikes are only used by casual riders. 
 
 
-### Average Ride Duration VS (Membership Type and Days In The Year)
+### Average Ride Duration VS Days In The Year
 ![image](Images/DurationDayOfYear.png)
 
 
@@ -129,3 +129,5 @@ We see a peak in the number of casual rides from Friday to Saturday.
 We see a decline in the number of member rides from Friday to Saturday. 
 
 
+### Ride Count VS Month
+![image](Images/RideCountMonth.png)
