@@ -4,6 +4,7 @@ library(data.table)
 install.packages("geosphere")
 library(geosphere)
 
+
 June2023 <- fread("202306-divvy-tripdata.csv", na.strings = "")
 July2023 <- fread("202307-divvy-tripdata.csv", na.strings = "")
 August2023 <- fread("202308-divvy-tripdata.csv", na.strings = "")
@@ -50,6 +51,7 @@ print(unique(Combined_removed_nulldistance$member_casual))
 print(sum(Combined_removed_nulldistance$ride_duration_minutes < 0))
 
 Combined_removed_nulldistance$month <- format(Combined_removed_nulldistance$started_at, "%B")
+Combined_removed_nulldistance$start_hour <- as.integer(format(Combined_removed_nulldistance$started_at, "%H"))
 
 
 Combined_removed_nulldistance_and_negative_ride_lnegth <- Combined_removed_nulldistance[(Combined_removed_nulldistance$ride_duration_minutes > 0)]
