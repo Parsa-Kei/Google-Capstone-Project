@@ -150,6 +150,10 @@ January 17th is the day on which both casual and members ride their bikes for th
 
 # Act
 
+
+
   1. Casual riders tend to ride for longer periods of time compared to members. Therefore a member-only promotion on longer rides could potentially get casual riders to join as a member. 
   2. Demand for bike service in July is very high. Therefore marketing should be maximized.
   3. Casual riders tend to ride on the weekends. Therefore a weekend-only-membership might incentivize them to join as a member.
+
+
