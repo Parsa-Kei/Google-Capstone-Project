@@ -146,11 +146,10 @@ The cleaned dataset is written to a new csv file and is used in Tableau for visu
 | Casual riders ride their bike on the weekends  | Member riders ride their bikes on the weekdays | 
 | Casual riders ride the most in July | Member riders use their bikes the most in August | 
 
-
 January 17th is the day on which both casual and members ride their bikes for the longest time.      
 
 ### Act
 
-  1. Demand for bike service in July is very high. Therefore promotion should be maximized.
-  2. Casual riders tend to ride on the weekends. Therefore a weekend-only-membership might incentivize them to join as a member.
-  3. Mid-January casual riders tend to ride for the longest time. Therefore a new-member-only promotion for long rides could potentially incentivize casual riders to join as members. 
+  1. Casual riders tend to ride for longer periods of time compared to members. Therefore a member-only promotion on longer rides could potentially get casual riders to join as a member. 
+  2. Demand for bike service in July is very high. Therefore promotion should be maximized.
+  3. Casual riders tend to ride on the weekends. Therefore a weekend-only-membership might incentivize them to join as a member.
