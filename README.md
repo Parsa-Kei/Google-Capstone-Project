@@ -91,9 +91,9 @@ After adding the new columns the format of the dataset is shown below.
 
 There are **1514864** rides taken by casual riders and there are **2799250** rides taken by members. 
 
-The average ride duration for casuals is **23.58741 minutes**   
-The average ride duration for members is **12.42971 minutes**      
-An average casual ride lasts almost twice as long as a member ride. 
+* The average ride duration for casuals is **23.58741 minutes**   
+* The average ride duration for members is **12.42971 minutes**      
+* An average casual ride lasts almost twice as long as a member ride. 
 
 The average ride distance for casuals is **2123.006 meters**   
 The average ride distance for members is **2058.034 meters**      
@@ -110,7 +110,7 @@ below is the chart for number of rides based on memebership type and rideable ty
 
 
 * We can see that the number of rides taken by members is much higher for classic bikes and electric bikes however members don't use docked bikes.   
-Docked bikes are only used by casual riders. 
+* Docked bikes are only used by casual riders. 
 
 
 ### Average Ride Duration VS Days In The Year
