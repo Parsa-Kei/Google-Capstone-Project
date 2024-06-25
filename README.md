@@ -99,4 +99,4 @@ The cleaned dataset is written to a new csv file and is used in Tableau for visu
 
 below is the chart for number of rides based on memebership type and rideable type.
 
-![image](Images/ride count by membership and ride type.png)
+![image](Images/ride_count_by_membership_and_ride_type.png)
