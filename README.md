@@ -114,8 +114,14 @@ Docked bikes are only used by casual riders.
 ![image](Images/DurationDayOfYear.png)
 
 
+
 We can see that the average ride duration for both members and casual riders peaks in mid-January. 
 
 
 ![image](Images/RideCountWeekday.png)
+
+
+We see a peak in the number of casual rides from Friday to Saturday.     
+We see a decline in the number of member rides from Friday to Saturday. 
+
 
