@@ -106,6 +106,9 @@ below is the chart for number of rides based on memebership type and rideable ty
 
 ![image](Images/ride_count_by_membership_and_ride_type.png)
 
+We can see that the average ride duration for both members and casual riders peaks on January 17th. 
+
+
 
 We can see that the number of rides taken by members is much higher for classic bikes and electric bikes however members don't use docked bikes.   
 Docked bikes are only used by casual riders. 
