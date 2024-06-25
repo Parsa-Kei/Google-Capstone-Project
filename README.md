@@ -85,7 +85,7 @@ We added five columns to our datasets as shown in [R script](Analysis.R) to help
 
 After adding the new columns the format of the dataset is shown below.
 
-![image](Images/AllFormat.png)
+![image](Images/All.png)
 
 ### Data Exploration
 
