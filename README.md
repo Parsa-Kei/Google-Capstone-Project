@@ -93,9 +93,11 @@ There are **1514864** rides taken by casual riders and there are **2799250** rid
 
 The average ride duration for casuals is **23.58741 minutes**   
 The average ride duration for members is **12.42971 minutes**
+An average casual ride lasts almost twice as long as a member ride. 
 
 The average ride distance for casuals is **2123.006 meters**   
 The average ride distance for members is **2058.034 meters**
+On average casual rides are a bit longer in distance than member rides.
 
 ## Analysis and Visualization
 The cleaned dataset is written to a new csv file and is used in Tableau for visualization
